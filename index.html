@@ -3,32 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>rahul kumar</title>
     <style>
-        #ten{
-          font-family: 'Courier New', Courier, monospace;
-        }
-        #twelve{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
+     .can{
+         margin:0px 0px 0px 500px ;
+         width: 35%;
+         padding: 10px;
+         background-color:#EAF6F6;
+         border-radius:10px;
+     }
+     p{
+         margin:0px 0px 0px 700px ;
+         font-weight:bolder;
+         text-decoration:overline underline double;
+     }
+     p.may{
+         margin:0px 0px 0px 0px ;
+         font-weight:lighter;
+         text-decoration: underline;
+         color:grey;
+     }
+     hr{
+          border-style:dotted none none;
+          border-color:grey;
+          border-width:8px;
+          height:0px;
+          width:150px;
+     }
+     body{
+         font: 1em sans-serif;
+         background-size:1700px 800px;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-position:0px 0px;
+     }
     </style>
 </head>
 <body>
-    <p>rahul kumar</p>
-    <table>
-        <tr class="">
-            <th id="ten">10 quelification</th>
-            <th id="twelve">12 quelification</th>
-        </tr>
-        <tr>
-        <td>
-fgfg ghghjghj hjg hggg
-        </td>
-        <td>
-hgjhg hgg hg ggj gkk,h k 
-        </td>
-        </tr>
-    </table>
+    <p>REGISTRATION FORM</p><br>
+    <div class="can">
+       <p class="may">BASIC DETAILS</p>
+        <form action="">
+            <table>
+               <tr><td>Form Number</td><td><input type="text" autofocus></td></tr>
+               <tr><td>Name</td><td><input type="text" placeholder="Rahul Kumar"></td></tr>
+               <tr><td>Roll-Number</td><td><input type="text" placeholder="1906066"></td></tr>
+               <tr><td>Gender</td><td><label>male</label><input type="radio" name="gender"><label>female</label><input type="radio" name="gender"></td></tr>
+               <tr><td>DOB</td><td><input type="date"></td></tr>
+               <tr><td>Categery</td><td><select>
+                   <option value="" disabled></option>
+                   <option value="">OBC</option>
+                   <option value="">GEN</option>
+                   <option value="">SC-ST</option>
+                   <option value="">OTHER</option>
+                   </select></td></tr>
+                  <tr><td>Address</td></tr>
+                  </table>
+                  <textarea cols="50px" rows="10px"></textarea><br>
+                  <label for="">PLEASE INPUT THE CORRECT PIN CODE</label>
+                  <table>
+                  <tr><td>PIN CODE</td><td><input type="text"></td></tr>
+                  <tr><td>PHONE OF STUDENT</td><td><input type="text"></td></tr>
+                  <tr><td>PHONE OF GARDIAN</td><td><input type="text"></td></tr>
+            </table>
+        </form>
+    </div>
+    <hr>
+
+        <div class="can">
+            <p class="may">ACADEMIC INFORMATION</p>
+            <form action="">
+                <table>
+                    <tr><td>Course</td><td><select>
+                        <option value="" disabled></option>
+                        <option value="">B-Tech</option>
+                        <option value="">diploma</option>
+                        <option value="">B-Com</option>
+                        <option value="">BCA</option>
+                        </select></td></tr>
+                    <tr><td>Branch</td><td><input type="text"></td></tr>
+                    <tr><td>Semester</td><td><select>
+                        <option value="" disabled></option>
+                        <option value="">1st</option>
+                        <option value="">2ed</option>
+                        <option value="">3th</option>
+                        <option value="">5th</option>
+                        <option value="">6th</option>
+                        <option value="">7th</option>
+                        <option value="">8th</option>
+                        </select>(for which allotment will be done)</td></tr>
+                   <tr><td>All India Rank</td><td><input type="text">(2018 jee main/Gate)</td></tr>
+                   <tr><td>Category Rank</td><td><input type="text">(2018 jee main/Gate)</td></tr>
+                   <tr><td>CGPA</td><td><input type="text"></td></tr>
+                   <tr><td>Backlog</td><td>YES<input type="radio" name="Backlog">NO<input type="radio" name="Backlog"></td></tr>
+                   <tr><td>Hostal Accommodation</td><td><label>YES</label><input type="radio" name="hostal"><label>NO</label><input type="radio" name="hostal">(if any)</td></tr>
+                      <tr><td>Name Of Hostal</td><td><input type="text"></td></tr>
+                      <tr><td>Room Number</td><td><input type="text"></td></tr>
+                </table>
+            </form>
+        </div>
+        <hr>
+        
+        <div class="can">
+          <p class="may">ACCOUNT DETAILS FOR REFUNDING PROCESS</p>  
+            <form action="">
+                <table>
+                    <tr><td>Account Holder Name</td><td><input type="text">As Per Bank Passbok</td></tr>
+                    <tr><td>Account Number</td><td><input type="text"></td></tr>
+                    <tr><td>IFSC Code</td><td><input type="text"></td></tr>
+                    <tr><td>Bank Name</td><td><input type="text"></td></tr>
+                    <tr><td>Bank Branch</td><td><input type="text"></td></tr>
+                </table>
+            </form>
+        </div>
     
 </body>
 </html>
